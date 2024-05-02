@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/pxgrid/gulp-aigis#readme",
   "dependencies": {
-    "gulp-util": "^3.0.6",
-    "lodash": "^4.10.0",
+    "lodash": "^4.17.21",
     "node-aigis": "github:dayaliveinc/aigis",
-    "through2": "^2.0.0"
+    "through2": "^4.0.2"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "fancy-log": "^2.0.0",
+    "gulp": "^5.0.0",
+    "plugin-error": "^2.0.1"
   }
 }

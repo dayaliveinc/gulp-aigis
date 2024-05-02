@@ -10,12 +10,11 @@ The path to your aigis config file as source.
 var gulp = require("gulp");
 var aigis = require("gulp-aigis");
 
-gulp.task("aigis", function() {
-  gulp.src("./aigis_config.yml")
-    .pipe(aigis());
+gulp.task("aigis", function () {
+  gulp.src("./aigis_config.yml").pipe(aigis());
 });
 ```
 
 ## Documents
 
-See [aigis repo](https://github.com/pxgrid/aigis) 
+See [aigis repo](https://github.com/pxgrid/aigis)
