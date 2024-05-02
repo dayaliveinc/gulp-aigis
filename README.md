@@ -11,7 +11,11 @@ var gulp = require("gulp");
 var aigis = require("gulp-aigis");
 
 gulp.task("aigis", function () {
-  gulp.src("./aigis_config.yml").pipe(aigis());
+  gulp.src("./src/").pipe(
+    aigis({
+      template_engine: ejs,
+    })
+  );
 });
 ```
 
